@@ -1,0 +1,44 @@
+/* Styles for the Sheet component */
+
+.sheet-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .sheet-content {
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 75%;
+    max-width: 300px;
+    background-color: white;
+    padding: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sheet-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sheet-close-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .sheet-trigger {
+    background-color: #073C92;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  

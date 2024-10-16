@@ -1,0 +1,66 @@
+/* Header styles */
+
+.header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  @media (min-width: 1280px) {
+    .header {
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Logo */
+  .logo {
+    display: block;
+  }
+  
+  /* Desktop Nav */
+  .desktop-nav {
+    display: none;
+  }
+  
+  @media (min-width: 1280px) {
+    .desktop-nav {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+  }
+  
+  /* Register Button */
+  .register-button {
+    background-color: #073C92;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #0c4c9b;
+  }
+  
+  /* Mobile Nav */
+  .mobile-nav {
+    display: block;
+  }
+  
+  @media (min-width: 1280px) {
+    .mobile-nav {
+      display: none;
+    }
+  }
+  

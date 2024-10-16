@@ -1,0 +1,55 @@
+/* MobileNav styles */
+
+/* Trigger icon */
+.menu-trigger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu-icon {
+    font-size: 32px;
+    color: black;
+  }
+  
+  /* Content inside the sheet */
+  .menu-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Logo styling */
+  .menu-logo {
+    margin: 40px 0;
+  }
+  
+  .logo-image {
+    display: block;
+    /* Add other logo-specific styles here */
+  }
+  
+  /* Navigation styling */
+  .menu-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .menu-link {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .menu-link:hover {
+    color: #ffc107;
+  }
+  
+  /* Active link styling */
+  .active-link {
+    color: #ff9800;
+    border-bottom: 2px solid #ff9800
+  }
+  
